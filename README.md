@@ -9,6 +9,8 @@ npm install
 npm run dev -- --host --port 80 & python3 backend/main.py
 ```
 
+Update the `config.json` file for the goal, starting funds, and url (should work without any changes).
+
 On the TV / Big display go to the IP address shown in terminal.
  - eg `http://192.168.1.101/`
 
