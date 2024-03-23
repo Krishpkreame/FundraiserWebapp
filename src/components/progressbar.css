@@ -1,0 +1,45 @@
+.progressbar {
+  /* Content alignment */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  /* Style */
+  border-radius: 60px;
+  background-color: #494b52;
+  box-shadow: 0px 0px 20px #111;
+
+  overflow: hidden;
+
+  position: relative;
+  background-color: var(--shadow-color);
+  height: var(--size-9);
+  border-radius: var(--radius-round);
+  overflow: hidden;
+  z-index: 20;
+  box-shadow: var(--shadow-);
+}
+
+.bar {
+  /* Size */
+  width: 0%;
+
+  /* Style */
+  background-color: var(--olive);
+}
+
+.progressbar-text-container {
+  /* Size */
+  width: auto;
+  padding: 0 0 0 50%;
+  /* Content alignment */
+  display: flex;
+  flex-direction: row;
+
+  /* Styling */
+  color: var(--olive);
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 18px;
+}

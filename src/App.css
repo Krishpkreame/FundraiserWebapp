@@ -1,0 +1,98 @@
+/* Importing Open Props and Google Fonts */
+@import "https://unpkg.com/open-props";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
+
+/* Global CSS Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif; /* Default font */
+}
+
+/* Root Variables */
+:root {
+  --offwhite: #fbfaf7; /* Light background color */
+  --cream: #fbfaf7; /* Cream color */
+  --olive: #84a59d; /* Olive color */
+  --dark: #363636; /* Dark color */
+  --shadow-color: #f0efeb; /* Shadow color */
+}
+
+/* Body Styles */
+body {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: var(--size-fluid-4); /* Gap between elements */
+  background-color: var(--offwhite); /* Background color */
+  font-size: var(--font-size-3); /* Default font size */
+}
+
+/* Heading Styles */
+h1 {
+  font-weight: bold;
+  font-size: var(--font-size-fluid-5); /* Heading font size */
+  width: 100%;
+  text-align: center;
+  padding: var(--size-fluid-3) var(--size-fluid-5); /* Padding */
+  background-color: var(--cream); /* Cream background color */
+}
+
+/* Aside Styles */
+aside {
+  display: grid;
+  place-items: center;
+  background-color: var(--cream); /* Cream background color */
+  width: 100%;
+  color: var(--dark); /* Dark text color */
+  text-align: center;
+  box-shadow: var(--shadow-0); /* Shadow */
+}
+
+/* Progress Wrapper Styles */
+.progress-wrapper {
+  display: grid;
+  width: inherit;
+  position: relative;
+}
+
+/* Progress Overlay Styles */
+.progress-overlay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  left: 1rem;
+  right: 1rem;
+  transform: translateY(150%);
+  z-index: 20;
+  font-weight: bold;
+}
+
+/* Bubble Styles */
+.bubble {
+  position: absolute;
+  background-color: var(--shadow-color); /* Shadow color */
+  color: var(--olive); /* Olive text color */
+  font-size: var(--font-size-2); /* Bubble font size */
+  border-radius: var(--radius-round); /* Rounded border */
+  padding: var(--size-1) 0.75rem; /* Padding */
+  box-shadow: var(--shadow-2); /* Shadow */
+}
+
+/* Bubble Left Styles */
+.bubble--left {
+  left: var(--size-2);
+  bottom: calc(var(--size-7) * -1.2);
+}
+
+/* Bubble Right Styles */
+.bubble--right {
+  right: var(--size-2);
+  bottom: calc(var(--size-7) * -1.2);
+}
