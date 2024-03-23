@@ -4,6 +4,7 @@ Download the repository
 
 Run these commands to start backend and frontend at same time:
 ```
+pip install -r backend/requirements.txt
 npm install
 npm run dev -- --host --port 80 & python3 backend/main.py
 ```
