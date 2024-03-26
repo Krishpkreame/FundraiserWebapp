@@ -7,11 +7,10 @@ This is a fundraiser progress bar web application with realtime updates built us
 The Fundraiser Progress Bar Web App provides a user-friendly interface for tracking the progress of fundraising campaigns. It displays a visually appealing progress bar indicating the percentage of the fundraising goal achieved, along with essential metrics and details about the campaign.
 
 Frontend:
-![frontend](https://github.com/Krishpkreame/FundraiserWebapp/assets/79666419/5db22dd1-d016-4ea6-bdd3-4a5f6bdffd18)
+<img src="https://github.com/Krishpkreame/FundraiserWebapp/assets/79666419/5db22dd1-d016-4ea6-bdd3-4a5f6bdffd18" width="500">
 
 Backend interface:
-![backend](https://github.com/Krishpkreame/FundraiserWebapp/assets/79666419/3f16426b-02d4-4117-a7bf-21e61f6d1caf)
-
+<img src="https://github.com/Krishpkreame/FundraiserWebapp/assets/79666419/3f16426b-02d4-4117-a7bf-21e61f6d1caf" width="400">
 
 ## Features
 
